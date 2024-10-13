@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "861914093353",
+    "project_id": "fir-pushnotification-1d473",
+    "storage_bucket": "fir-pushnotification-1d473.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861914093353:android:86255620bef8768b7b4938",
+        "android_client_info": {
+          "package_name": "com.example.firebasepushnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXSWjl_6yR41RderhPjc1CQ7pOy_OGaP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861914093353:android:3301abb71be1c5fa7b4938",
+        "android_client_info": {
+          "package_name": "com.example.quizyy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXSWjl_6yR41RderhPjc1CQ7pOy_OGaP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Quizyy. -->
+    <style name="Base.Theme.Quizyy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- App Button Styles -->
+        <item name="buttonStyle">@style/AppButton</item>
+
+        <!-- Text Styles -->
+        <item name="android:textViewStyle">@style/AppTextView</item>
+        <item name="android:titleTextStyle">@style/AppTextView.Title</item>
+
+        <!-- Card Style -->
+        <item name="cardViewStyle">@style/AppCard</item>
+    </style>
+
+    <style name="Theme.Quizyy" parent="Base.Theme.Quizyy" />
+
+    <!-- Button styles -->
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="AppTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTextView.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="AppCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+</resources>
