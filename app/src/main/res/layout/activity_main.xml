@@ -86,6 +86,18 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/translateButton"
+        style="@style/AppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        app:layout_constraintTop_toBottomOf="@id/explanationCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primary_light"/>
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/takeQuizButton"
         style="@style/AppButton"
         android:layout_width="wrap_content"
@@ -97,6 +109,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="24dp"
         android:backgroundTint="@color/primary_light"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
